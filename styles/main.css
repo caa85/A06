@@ -1,33 +1,63 @@
-/* Header styles */
+:root {
+    --accent-color: #800000;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
 header h2 {
-  font-size: 170%;
-  color: #800000;
-  text-indent: 30px;
+    font-size: 170%;
+    text-indent: 30px;
 }
 
 header h3 {
-  font-size: 130%;
-  font-style: italic;
-  text-indent: 30px;
+    font-size: 130%;
+    font-style: italic;
+    text-indent: 30px;
 }
-
-/* Link hover and focus */
-a:hover,
-a:focus {
-  font-style: italic;
-}
-
-/* Footer paragraph centering */
-footer p {
-  text-align: center;
-}
-
 .shadow {
   text-shadow: 2px 2px #800000;
 }
 
-:root {
-  --global-color-1: #800000;
+main {
+    clear: left;
 }
 
-color: var(--global-color-1);
+a:hover,
+a:focus {
+    color: var(--accent-color);
+    font-style: italic;
+}
+
+h1 {
+    font-size: 150%;
+}
+
+h2 {
+    font-size: 130%;
+    color: var(--accent-color);
+}
+
+h3{
+    font-size: 105%;
+}
+
+footer {
+  margin-top: 40px;
+  padding: 10px;
+}
+
+footer p {
+  text-align: center;
+  font-size: 0.9em;
+}
+
+.large {
+    font-size: 125%;
+}
